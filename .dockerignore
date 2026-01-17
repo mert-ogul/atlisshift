@@ -1,5 +1,6 @@
 node_modules
 dist
+build
 .next
 .git
 .github
@@ -7,6 +8,14 @@ coverage
 *.log
 .env
 .env.local
+.env.*.local
 .DS_Store
+Thumbs.db
 *.tsbuildinfo
 .turbo
+.pnpm-store
+*.pem
+*.key
+*.cert
+.vscode
+.idea

@@ -38,3 +38,6 @@ Thumbs.db
 *.pem
 *.key
 *.cert
+
+# Local development
+.pnpm-store/
