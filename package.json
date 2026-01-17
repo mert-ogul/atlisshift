@@ -13,7 +13,8 @@
     "format": "biome format --write .",
     "typecheck": "turbo run typecheck",
     "clean": "turbo run clean",
-    "atlisshift": "pnpm --filter @atlasshift/cli atlisshift"
+    "atlisshift": "pnpm --filter @atlasshift/cli atlisshift",
+    "prepare": "husky"
   },
   "workspaces": [
     "apps/*",
@@ -22,8 +23,14 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@changesets/cli": "^2.27.9",
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@playwright/test": "^1.49.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11",
     "turbo": "^2.3.0",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   },
   "engines": {
     "node": ">=24.0.0",
