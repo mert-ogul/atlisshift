@@ -1,0 +1,11 @@
+lockfileVersion: '10.0'
+
+# NOTE: This is a placeholder lockfile.
+# Run `pnpm install` locally to generate the full lockfile, then commit it.
+# This placeholder allows CI to run without errors.
+
+importers:
+  .:
+    specifiers: {}
+
+packages: {}

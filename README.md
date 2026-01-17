@@ -36,6 +36,8 @@ AtlasShift is a production-grade tool for performing safe, architecture-level co
 pnpm install
 ```
 
+**Note:** If you're setting up the project for the first time, the `pnpm-lock.yaml` file may be a placeholder. Run `pnpm install` to generate the full lockfile, then commit it.
+
 ### Development
 
 Start the development server and web UI:
